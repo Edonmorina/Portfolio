@@ -46,6 +46,10 @@ const Navbar = () => {
                     <a href={`#${item}`} onClick={() => setToggle(false)}>{item}</a>
                   </li>
                 ))}
+                <li className="app__flex p-text resume" key={`link-resume`}>
+                  <div />
+                  <a href={resume} target='_blank'>Resume</a>
+                </li>
                 </ul>
               </motion.div>
             )}
